@@ -1,0 +1,82 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# AURA Drone — Python Dependencies
+# Install with: pip install -r requirements.txt --break-system-packages
+#
+# NOTE: On Jetson Orin Nano (JetPack 5.x / Ubuntu 22.04):
+#   - dronekit requires Python 3.8+ and may need: pip install future
+#   - opencv-python should be replaced with opencv-python-headless on headless builds
+#   - pylepton requires SPI/GPIO access — see README for Jetson SPI setup
+#   - tkinter is a system package: sudo apt install python3-tk
+#   - For TensorRT-accelerated YOLO: use Ultralytics' Jetson install guide
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Flight Controller ─────────────────────────────────────────────────────────
+dronekit==2.9.2
+pymavlink==2.4.41
+future==0.18.3                   # dronekit dependency
+
+# ── Computer Vision ───────────────────────────────────────────────────────────
+ultralytics==8.3.0               # YOLOv8 (auto-downloads yolov8n.pt on first run)
+opencv-python==4.9.0.80          # Replace with opencv-python-headless for no-GUI server
+numpy==1.26.4
+Pillow==10.3.0                   # PIL for GUI image display
+
+# ── Thermal Camera ────────────────────────────────────────────────────────────
+# pylepton is installed from source for Jetson GPIO SPI:
+# git clone https://github.com/groupgets/pylepton && cd pylepton && pip install .
+# Uncomment if installing from PyPI (less maintained):
+# pylepton==0.1.0
+
+# ── Face Recognition ──────────────────────────────────────────────────────────
+face-recognition==1.3.0          # Requires dlib (auto-installed as dependency)
+dlib==19.24.4                    # Compiled with CUDA on Jetson for speed
+
+# ── Voice / Audio ─────────────────────────────────────────────────────────────
+vosk==0.3.45
+pyaudio==0.2.14                  # Requires: sudo apt install portaudio19-dev
+
+# ── AI / Ollama ───────────────────────────────────────────────────────────────
+requests==2.31.0                 # For Ollama HTTP API calls
+
+# ── Communications ────────────────────────────────────────────────────────────
+pyserial==3.5                    # UART for LoRa RYLR998
+pycryptodome==3.20.0             # AES-128 encryption for LoRa messages
+
+# ── Mapping ───────────────────────────────────────────────────────────────────
+folium==0.16.0                   # Interactive HTML situation maps
+
+# ── Config ────────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1             # .env file loading for sensitive config
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+scipy==1.13.0                    # Image processing helpers (morphological ops fallback)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# SYSTEM PACKAGES (install with apt, not pip):
+# ─────────────────────────────────────────────────────────────────────────────
+# sudo apt update && sudo apt install -y \
+#   python3-tk \           # Tkinter GUI support
+#   portaudio19-dev \      # PyAudio microphone support
+#   espeak \               # TTS fallback
+#   aplay alsa-utils \     # Audio playback for Piper
+#   hostapd dnsmasq \      # WiFi relay AP mode
+#   libatlas-base-dev \    # numpy/scipy performance
+#   libopenblas-dev \      # dlib/face_recognition performance
+#   cmake \                # Required to compile dlib
+#   build-essential \      # C++ compiler for dlib
+#   libboost-all-dev       # dlib dependency
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# OPTIONAL — TensorRT YOLO acceleration (Jetson only):
+# ─────────────────────────────────────────────────────────────────────────────
+# After pip install ultralytics, export the model:
+#   yolo export model=yolov8n.pt format=engine device=0
+# This generates yolov8n.engine — place it in the project root.
+# AURA will automatically use it if found.
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# OLLAMA MODELS (pull after installing Ollama):
+# ─────────────────────────────────────────────────────────────────────────────
+# ollama pull gemma3n:e2b
+# ollama pull deepseek-r1:8b
+# ollama pull qwen2.5-vl:7b
