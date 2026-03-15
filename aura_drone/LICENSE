@@ -1,0 +1,188 @@
+AURA DRONE NON-COMMERCIAL PUBLIC LICENSE
+Version 1.0
+
+Copyright (c) 2025 — AURA Drone Project Owner
+All rights reserved under the terms below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PLAIN ENGLISH SUMMARY (not a substitute for the full terms below)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ YOU CAN: use it personally, study it, improve it, share your improvements
+  ❌ YOU CANNOT: sell it, license it, use it in a product or service for money,
+                 claim you wrote it, or strip this license from it
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FULL LICENSE TERMS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. DEFINITIONS
+
+   "Software" means the AURA Drone source code, documentation, configuration
+   files, wiring diagrams, and all associated materials distributed under this
+   license.
+
+   "You" means any individual or organization accessing, using, copying,
+   modifying, or distributing the Software.
+
+   "Commercial Use" means any use of the Software, in whole or in part, that
+   is primarily intended for or directed toward commercial advantage or monetary
+   compensation. This includes but is not limited to:
+     - Selling the Software or a product that contains it
+     - Offering the Software or a modified version as a paid service
+     - Using the Software to provide services for a fee
+     - Incorporating the Software into a commercial product
+     - Crowdfunding campaigns where the Software is a primary deliverable
+     - Drone-as-a-service platforms, security services, or surveillance products
+
+   "Derivative Work" means any software, hardware design, documentation, or
+   other work that is based on or derived from the Software.
+
+
+2. GRANT OF RIGHTS
+
+   Subject to the terms and conditions of this license, the copyright holder
+   grants You a worldwide, royalty-free, non-exclusive license to:
+
+   a) USE the Software for personal, educational, or research purposes;
+
+   b) COPY and DISTRIBUTE verbatim copies of the Software;
+
+   c) MODIFY the Software and create Derivative Works;
+
+   d) DISTRIBUTE Derivative Works under the terms of this same license.
+
+
+3. CONDITIONS
+
+   The rights granted in Section 2 are subject to the following conditions:
+
+   3.1 ATTRIBUTION
+       Any copy or Derivative Work you distribute must:
+       - Retain this license file in full, unmodified
+       - Clearly credit the original AURA Drone project and its author(s)
+       - Indicate if you have made modifications and describe what changed
+       - Not imply that the original author endorses your version
+
+   3.2 SHARE-ALIKE (COPYLEFT)
+       If you distribute a Derivative Work, you must release it under this
+       same license — the AURA Drone Non-Commercial Public License v1.0.
+       You may not apply additional restrictions that limit the rights granted
+       by this license to recipients of your Derivative Work.
+
+   3.3 NON-COMMERCIAL
+       You may not use the Software or any Derivative Work for Commercial Use
+       as defined in Section 1 without the explicit prior written permission
+       of the copyright holder.
+
+       If you wish to use this Software commercially, contact the author to
+       discuss a separate commercial license agreement.
+
+   3.4 NO SUBLICENSING
+       You may not sublicense, sell, or transfer your rights under this license
+       to any third party. Any attempt to do so is void and automatically
+       terminates your rights under this license.
+
+   3.5 PATENT USE
+       This license does not grant any rights to use the authors' patents,
+       trademarks, or other intellectual property except as expressly stated.
+
+
+4. RESTRICTIONS
+
+   You may NOT:
+
+   a) Remove or alter any copyright notices, attribution text, or this license
+      from any copy of the Software or Derivative Work;
+
+   b) Use the name "AURA Drone", the project's logo, or the original author's
+      name to endorse or promote products or services derived from this Software
+      without prior written permission;
+
+   c) Reverse-engineer or circumvent the license conditions through contractual
+      arrangements, organizational structures, or technical means;
+
+   d) Use the Software in any application where failure could result in death
+      or serious injury WITHOUT conducting your own thorough safety review and
+      taking full legal responsibility for that deployment.
+
+
+5. CONTRIBUTIONS
+
+   By submitting a pull request, patch, issue, or any other contribution to
+   the AURA Drone project, you agree that:
+
+   a) Your contribution is your original work and you have the right to
+      contribute it under this license;
+
+   b) You grant the copyright holder a perpetual, irrevocable, royalty-free
+      license to use, modify, and distribute your contribution under any
+      license the copyright holder chooses, including commercial licenses;
+
+   c) You waive any "moral rights" in your contribution to the extent permitted
+      by applicable law.
+
+   Contributors retain copyright to their individual contributions. Your name
+   will be acknowledged in CONTRIBUTORS.md.
+
+
+6. DISCLAIMER OF WARRANTIES
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+   THE AUTHORS MAKE NO WARRANTY THAT:
+   - The Software will meet your requirements
+   - The Software will be error-free or operate without interruption
+   - Any errors in the Software will be corrected
+
+
+7. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY
+   DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+   (INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+   LOSS OF USE, DATA, OR PROFITS; BUSINESS INTERRUPTION; PROPERTY DAMAGE;
+   PERSONAL INJURY; OR DEATH) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+   YOU ACCEPT FULL RESPONSIBILITY FOR ALL RISKS ASSOCIATED WITH OPERATING
+   AUTONOMOUS AIRCRAFT. DRONES CAN CAUSE SERIOUS HARM. THE AUTHORS ARE NOT
+   RESPONSIBLE FOR YOUR FLIGHTS.
+
+
+8. TERMINATION
+
+   Your rights under this license terminate automatically and immediately if:
+
+   a) You violate any term of this license;
+
+   b) You initiate patent litigation against any party alleging that the
+      Software infringes a patent.
+
+   Upon termination, you must destroy all copies of the Software in your
+   possession. Sections 4, 6, 7, and 8 survive termination.
+
+
+9. GOVERNING LAW
+
+   This license shall be governed by and construed in accordance with the laws
+   of the jurisdiction in which the original copyright holder resides, without
+   regard to its conflict of law provisions.
+
+
+10. CONTACT FOR COMMERCIAL LICENSING
+
+    If you wish to use this Software in a commercial product or service,
+    contact the project maintainer via the GitHub repository to discuss
+    a separate commercial license.
+
+    Commercial licenses are available and can be negotiated on a case-by-case
+    basis.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF LICENSE
+
+For questions about this license, open an issue on the project's GitHub page.
